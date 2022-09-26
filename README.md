@@ -2,3 +2,5 @@
 
 ## recipes
 recpies
+
+## odin project day2 flex
