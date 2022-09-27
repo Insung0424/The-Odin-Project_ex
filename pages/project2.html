@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <link rel="stylesheet" href="../css/landingPage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop>
+            <source src="" type="video/mp4"></src>
+        </video>
+
+        <auto id = "backgroundMusic" class="bgm" src="resources" loop></auto>
+    </div>
+
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a href="logoContainer" href=".">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="" alt="">
+                </div>
+                <div class="logo">
+                    Logo
+                </div>
+            </a>
+            <img id="audioController" src="" alt="" onclick="audioController(); imgageChange();">
+        </div>
+        <div>
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdownContent">
+                <div class="aboutCopyright">
+                    Had issues in the past with copyright. Updated to make sure all the content here are credited if necessary and free to use.
+                </div>
+                <br>
+                <div class="sourceC">First background author (MerlimAmbrosuis): <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="sourceC">First background source: <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="sourceC">Image author : <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="sourceC">Second background author : <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="sourceC">First music author : <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="sourceC">Second music author : <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="sourceC">Second music source : <a class="sourcesLink" href="#"></a></div>
+                <br>
+                <div class="dm">If you have any concerns about the avilability of any of the content here, please message me on discord | Lyrenide#3493</div>
+            </div>
+        </div>
+        <div class="rightBarContainer">
+            <div right="rightBarStuff">
+                <a class="about hamburgerStuff" href="#">About</a>
+                <img class="separator hamburgerStuff" src="" alt="">
+                <a class="characters hamburgerStuff" href="#">Charcters</a>
+                <img class="separtor hamburgerStuff" src="" alt="">
+                <a class="music hamburgerStuff" href="#">Content</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <div class="layer1">
+        <div class="layer1BgSources">
+            <a class="layer1Bgsource1" href="#">layer1</a>
+            <br>
+            <a class="layer1Bgsource2" href="#">layer2</a>
+        </div>
+        <div class="layer1Container">
+            <div class="layer1Left">
+                <div class="greetings">
+                    Welcome to the parade
+                </div>
+                <div class="description">
+                    Home
+                </div>
+            </div>
+            <div class="layer1Right">
+                <img class="layer1Image" src="" alt="">
+                <div class="layer1Caption">
+                    Reimu be sweepin
+                </div>
+                <a class="layer1Source" href="#">layer1Source</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer2">
+        <div class="layer2Bg">
+            <div class="layerContent">
+                <div class="layer2Heading">
+                    Why not come down to the parade
+                </div>
+                <div class="layer2InfoContainer">
+                    <div class="gameController">
+                        <a class="linkI" href="#"><img class="gameImage" src="" alt=""></a>
+                        <div class="gameSubtext">Games!</div>
+                    </div>
+                    <div class="fanartContainer">
+                        <a class="linkI" href=""><img class="fanartImage" src="" alt=""></a>
+                        <div class="fanartSubtext">Fanart!</div>
+                        <div class="fanartSource">by me</div>
+                    </div>
+                    <div class="musicContainer">
+                        <a class="linkI" href="#"><video src=""></video></a>
+                        <div class="MusicSubtext">Music!</div>
+                    </div>
+                    <div>
+                        <a class="linkI" href=""><img class="fumoImage" src="" alt=""></a>
+                        <div class="fumoSubtext">and most importantly, Fumos!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer3">
+        <a class="layer3Bgsource" href=""></a>
+        <div class="layer3Text">
+            <div class="layer3Text">
+                <div class="layer3Quote">
+                    "Nothing and everything"
+                </div>
+                <div class="layer3QuoteFrom">
+                    -None
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer4">
+        <div class="layer4Bg">
+            <div class="layer4Content">
+                <div class="layer4TextHeading">
+                    Is there something strange?
+                </div>
+                <div class="layer4TextSubtext">
+                    gooooood!
+                </div>
+            </div>
+            <div class="layer4ContactContainer">
+                <a class="layer4Content" href="#">
+                    Contact!
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerLayer">
+        <div class="footerLayerBg">
+            <a class="footerLayerAuthor" href="">
+                Webpage by : odin
+            </a>
+        </div>
+    </div>
+</body>
+<script src = "../js/landingPage.js"></script>
+</html>
